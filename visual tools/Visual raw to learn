@@ -2,6 +2,35 @@
 Raw
 Load --> handle --> Visualize
 Detail
-input -> handle -> visualize -> Gui -> Uutility
+input -> handle -> visualize -> Gui -> Utility
 
 From 5 extension modules to improve code
+Module 1: Input
+Present:
+load_data_from_file()
+Function:mở file dialog, đọc CSV/Excel, trả về DataFrame
+Expansion in progress:
+
+Module 2: handle
+Present:
+prepare_dataframe(df, timeframe='1min')
+Function:tạo OHLCV từ tick data (Bid/Ask), resample theo timeframe.
+Expansion in progress:
+
+Module 3: visualize
+Present:
+visualize_data(df, title="Chart")
+Function:vẽ nến + volume bằng mplfinance.
+Expansion in progress:
+
+Module 4: Gui
+Present:
+Chưa có
+Function:
+Expansion in progress:
+
+Module 5: Utility
+Present:
+Chưa có
+Function:
+Expansion in progress:
