@@ -1,0 +1,27 @@
+"""
+Trading Data Visualizer - Module Diagram
+
++------------------+
+|   TradingApp     | <-- GUI / User Interaction
++------------------+
+        |
+        v
++------------------+
+|   DataLoader     | <-- Load file CSV/Excel
++------------------+
+        |
+        v
++------------------+
+|  DataProcessor   | <-- Resample OHLC, add indicators
++------------------+
+        |
+        v
++------------------+
+|   Visualizer     | <-- Plot candle chart + volume
++------------------+
+        |
+        v
++------------------+
+|   Utilities      | <-- Timestamp, normalize, logging
++------------------+
+"""
