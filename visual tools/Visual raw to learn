@@ -25,3 +25,6 @@ Trading Data Visualizer - Module Diagram
 |   Utilities      | <-- Timestamp, normalize, logging
 +------------------+
 """
+"""
+Load --> handle --> Visualize
+
